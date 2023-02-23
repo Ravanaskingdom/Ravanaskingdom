@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Profile</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="profile">
+        <div class="profile-img">
+          <img src="profile-picture.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-info">
+          <h2>Jane Doe</h2>
+          <p>Front-End Developer</p>
+          <p>Location: New York, NY</p>
+        </div>
+      </section>
+      <section class="bio">
+        <h3>About Me</h3>
+        <p>I am a front-end developer with 5 years of experience. I specialize in HTML, CSS, and JavaScript and I am passionate about creating responsive and user-friendly websites.</p>
+      </section>
+      <section class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>User Experience Design</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Profile. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
